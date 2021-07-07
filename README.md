@@ -1,5 +1,5 @@
-# OctoPrint PSU Control - Shelly
-Adds Shelly support to OctoPrint-PSUControl as a sub-plugin
+# OctoPrint PSU Control - Meross
+Adds Meross support to OctoPrint-PSUControl as a sub-plugin
 
 ## Setup
 - Install the plugin using Plugin Manager from Settings
@@ -7,14 +7,9 @@ Adds Shelly support to OctoPrint-PSUControl as a sub-plugin
 - Select this plugin as Switching **and** Sensing method in [PSU Control](https://github.com/kantlivelong/OctoPrint-PSUControl)
 
 ## Configuration
-The plugin can be used either with a direct connection to your Shelly or via Shelly Cloud.
+The plugin can only be used via the Meross Cloud.
 
-### Local connection
-* Uncheck the *Use Shelly Cloud* checkbox
-* Enter IP address
-* If your Shelly is password protected, check *Use authentication* and enter your username and password.
-
-### Shelly Cloud
+### Meross Cloud
 * Login at [Shelly Cloud](https://my.shelly.cloud/)
 * Go to *User Settings > Security > Autorisation Cloud Key*
 * Click *Get Key*
